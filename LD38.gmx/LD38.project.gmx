@@ -13,6 +13,11 @@
         <sprite>sprites\spr_main_walking</sprite>
         <sprite>sprites\spr_main_running</sprite>
       </sprites>
+      <sprites name="Male">
+        <sprite>sprites\spr_male_default</sprite>
+        <sprite>sprites\spr_male_walking</sprite>
+        <sprite>sprites\spr_male_running</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
