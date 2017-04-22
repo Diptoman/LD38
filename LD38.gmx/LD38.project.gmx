@@ -5,9 +5,35 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Characters">
+      <sprites name="Main">
+        <sprite>sprites\spr_main_default</sprite>
+        <sprite>sprites\spr_main_ducking</sprite>
+        <sprite>sprites\spr_main_walking</sprite>
+      </sprites>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Control">
+      <script>scripts\scr_controlSetup.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <objects name="Control">
+      <object>objects\obj_control</object>
+    </objects>
+    <objects name="Characters">
+      <objects name="Main">
+        <object>objects\obj_main</object>
+      </objects>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
