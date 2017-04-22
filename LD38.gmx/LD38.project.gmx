@@ -11,6 +11,7 @@
         <sprite>sprites\spr_main_default</sprite>
         <sprite>sprites\spr_main_ducking</sprite>
         <sprite>sprites\spr_main_walking</sprite>
+        <sprite>sprites\spr_main_running</sprite>
       </sprites>
     </sprites>
   </sprites>
