@@ -34,6 +34,29 @@ _state = 1;
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>_state = 2;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -85,6 +108,7 @@ _state = 1;
 }
 
 x = _parent.x;
+image_xscale = _parent.image_xscale;
 </string>
           </argument>
         </arguments>
@@ -108,7 +132,7 @@ x = _parent.x;
           <argument>
             <kind>1</kind>
             <string>draw_self();
-draw_sprite_ext(_image, _index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);
+draw_sprite_ext(_image, 0, x + sign(image_xscale) * 40, y, 1, image_yscale, image_angle, c_white, image_alpha);
 </string>
           </argument>
         </arguments>
