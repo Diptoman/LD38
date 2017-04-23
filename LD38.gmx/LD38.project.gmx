@@ -145,6 +145,7 @@
       <sprite>sprites\spr_zWork</sprite>
     </sprites>
     <sprite>sprites\spr_drop_fall</sprite>
+    <sprite>sprites\sprite30</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_farbg</background>
@@ -233,6 +234,7 @@
     <objects name="Environment">
       <object>objects\obj_machine</object>
       <object>objects\obj_house</object>
+      <object>objects\obj_tree</object>
     </objects>
     <objects name="TweenGMS">
       <object>objects\obj_SharedTweener</object>
