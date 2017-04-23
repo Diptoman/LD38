@@ -113,6 +113,7 @@
       <sprites name="Girl">
         <sprite>sprites\spr_girl_default</sprite>
         <sprite>sprites\spr_girl_walk</sprite>
+        <sprite>sprites\spr_girl_fall</sprite>
       </sprites>
     </sprites>
     <sprites name="Environment">
@@ -145,6 +146,8 @@
     <background>background\bg_farbg</background>
     <background>background\bg_foreground</background>
     <background>background\bg_back</background>
+    <background>background\bg_treebg</background>
+    <background>background\bg_housebg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
