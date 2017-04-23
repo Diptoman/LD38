@@ -27,9 +27,9 @@
             <kind>1</kind>
             <string>//Basic variables
 
-_movementSpd = 1.6;
+_movementSpd = 1.4;
 _anxious = false;
-_isControllable = true;
+_isControllable = false;
 
 image_speed = .1;
 

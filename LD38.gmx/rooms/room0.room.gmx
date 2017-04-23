@@ -3,7 +3,7 @@
   <caption></caption>
   <width>1280</width>
   <height>256</height>
-  <vsnap>16</vsnap>
+  <vsnap>8</vsnap>
   <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
@@ -33,7 +33,7 @@
   <backgrounds>
     <background visible="-1" foreground="0" name="bg_farbg" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="bg_back" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="-1" name="bg_foreground" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="bg_foreground" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="bg_treebg" x="12" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -83,6 +83,7 @@
     <tile bgName="bg_treebg" x="792" y="64" w="128" h="160" xo="0" yo="0" id="10000017" name="inst_38FC283A" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_housebg" x="368" y="64" w="160" h="128" xo="0" yo="0" id="10000018" name="inst_2004A7C8" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_back" x="0" y="0" w="1280" h="256" xo="0" yo="0" id="10000002" name="inst_079B0BCD" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_foreground" x="0" y="0" w="1280" h="256" xo="0" yo="0" id="10000022" name="inst_E11B8D87" depth="-500" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

@@ -95,7 +95,13 @@
   <NewExtensions>
     <extension index="0">extensions\TweenGMS</extension>
   </NewExtensions>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sounds name="Bg">
+      <sound>sound\snd_bg_d1</sound>
+      <sound>sound\snd_bg_d2</sound>
+      <sound>sound\snd_bg_d3</sound>
+    </sounds>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Characters">
       <sprites name="Main">
@@ -217,6 +223,8 @@
   <objects name="objects">
     <objects name="Control">
       <object>objects\obj_control</object>
+      <object>objects\obj_dayBeginner</object>
+      <object>objects\obj_dayEnder</object>
     </objects>
     <objects name="Characters">
       <objects name="Main">
@@ -249,6 +257,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
