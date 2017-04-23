@@ -151,6 +151,10 @@
         <sprite>sprites\spr_symbol_doom</sprite>
         <sprite>sprites\spr_symbol_sleep</sprite>
         <sprite>sprites\spr_symbol_question</sprite>
+        <sprite>sprites\spr_symbol_sacrifice</sprite>
+        <sprite>sprites\spr_symbol_kill</sprite>
+        <sprite>sprites\spr_symbol_home</sprite>
+        <sprite>sprites\spr_symbol_cross</sprite>
       </sprites>
     </sprites>
     <sprites name="Bubbles">
@@ -158,7 +162,6 @@
     </sprites>
     <sprite>sprites\spr_drop_fall</sprite>
     <sprite>sprites\spr_drop_partic</sprite>
-    <sprite>sprites\sprite30</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_farbg</background>
