@@ -28,7 +28,7 @@
             <string>///Story setups
 
 _day = 1; //What day is being played
-_step = 2; //What part of the day the player is currently at
+_step = 1; //What part of the day the player is currently at
 </string>
           </argument>
         </arguments>
