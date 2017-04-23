@@ -127,6 +127,7 @@
     <scripts name="Control">
       <script>scripts\scr_controlSetup.gml</script>
       <script>scripts\scr_showMessage.gml</script>
+      <script>scripts\scr_setNPCSprite.gml</script>
     </scripts>
     <scripts name="TweenGMS">
       <scripts name="Core">
@@ -183,6 +184,9 @@
         <object>objects\obj_main</object>
       </objects>
       <object>objects\obj_mainBubble</object>
+      <objects name="NPCs">
+        <object>objects\obj_randomPerson</object>
+      </objects>
     </objects>
     <objects name="Story Markers">
       <object>objects\obj_markerParent</object>
