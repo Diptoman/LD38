@@ -27,11 +27,13 @@
             <kind>1</kind>
             <string>//Basic variables
 
-_movementSpd = 2;
+_movementSpd = 1.6;
 _anxious = false;
 _isControllable = true;
 
 image_speed = .1;
+
+_xx = x;
 </string>
           </argument>
         </arguments>
@@ -81,7 +83,8 @@ image_speed = .1;
 {
     if (scr_left())
     {  
-        x -= _movementSpd;
+        _xx -= _movementSpd;
+        x = floor(_xx);
         image_xscale = -1;
         if (!_anxious)
             sprite_index = spr_main_walking;
@@ -90,7 +93,8 @@ image_speed = .1;
     }
     else if (scr_right())
     {
-        x += _movementSpd;
+        _xx += _movementSpd;
+        x = floor(_xx);
         image_xscale = 1;
         if (!_anxious)
             sprite_index = spr_main_walking;
