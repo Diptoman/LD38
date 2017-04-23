@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>event_inherited();
 
-_image = spr_work;
-_step = 1;
+_image = spr_symbol_sleep;
+_step = 3;
 </string>
           </argument>
         </arguments>
@@ -56,7 +56,7 @@ _step = 1;
 var main = instance_place(x,y, obj_main);
 if (main)
 {
-    if (scr_action())
+    if (scr_action() &amp;&amp; (obj_control._step == 3))
     {
         obj_main._isControllable = false;
         obj_main.alarm[0] = 240;
