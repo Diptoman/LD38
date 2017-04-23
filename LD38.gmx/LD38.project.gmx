@@ -110,6 +110,10 @@
         <sprite>sprites\spr_male_running</sprite>
       </sprites>
       <sprite>sprites\spr_charshadow</sprite>
+      <sprites name="Girl">
+        <sprite>sprites\spr_girl_default</sprite>
+        <sprite>sprites\spr_girl_walk</sprite>
+      </sprites>
     </sprites>
     <sprites name="Environment">
       <sprite>sprites\spr_machine_flicker</sprite>
