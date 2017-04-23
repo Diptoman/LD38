@@ -115,6 +115,12 @@
         <sprite>sprites\spr_girl_walk</sprite>
         <sprite>sprites\spr_girl_fall</sprite>
       </sprites>
+      <sprites name="Cultist">
+        <sprite>sprites\spr_cultist_default</sprite>
+        <sprite>sprites\spr_cultist_walk</sprite>
+        <sprite>sprites\spr_cultist_chant</sprite>
+        <sprite>sprites\spr_cultist_point</sprite>
+      </sprites>
     </sprites>
     <sprites name="Environment">
       <sprite>sprites\spr_machine_flicker</sprite>
@@ -144,6 +150,9 @@
     <sprites name="Bubbles">
       <sprite>sprites\spr_zWork</sprite>
     </sprites>
+    <sprite>sprites\spr_drop_fall</sprite>
+    <sprite>sprites\spr_drop_partic</sprite>
+    <sprite>sprites\sprite30</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_farbg</background>
@@ -232,6 +241,7 @@
     <objects name="Environment">
       <object>objects\obj_machine</object>
       <object>objects\obj_house</object>
+      <object>objects\obj_tree</object>
     </objects>
     <objects name="TweenGMS">
       <object>objects\obj_SharedTweener</object>
