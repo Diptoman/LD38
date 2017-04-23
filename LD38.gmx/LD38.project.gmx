@@ -122,6 +122,8 @@
       <sprite>sprites\spr_tree</sprite>
       <sprite>sprites\spr_house</sprite>
       <sprite>sprites\spr_snowFalling</sprite>
+      <sprite>sprites\spr_snowFalling2</sprite>
+      <sprite>sprites\spr_snowFalling3</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\spr_bubble1</sprite>
