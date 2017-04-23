@@ -122,6 +122,9 @@
       <sprite>sprites\spr_bubble1</sprite>
       <sprite>sprites\spr_bubble2</sprite>
       <sprite>sprites\spr_markerNormal</sprite>
+      <sprites name="Action Symbols">
+        <sprite>sprites\spr_work</sprite>
+      </sprites>
     </sprites>
     <sprites name="Bubbles">
       <sprite>sprites\spr_zWork</sprite>
