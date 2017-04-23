@@ -115,6 +115,12 @@
         <sprite>sprites\spr_girl_walk</sprite>
         <sprite>sprites\spr_girl_fall</sprite>
       </sprites>
+      <sprites name="Cultist">
+        <sprite>sprites\spr_cultist_default</sprite>
+        <sprite>sprites\spr_cultist_walk</sprite>
+        <sprite>sprites\spr_cultist_chant</sprite>
+        <sprite>sprites\spr_cultist_point</sprite>
+      </sprites>
     </sprites>
     <sprites name="Environment">
       <sprite>sprites\spr_machine_flicker</sprite>
