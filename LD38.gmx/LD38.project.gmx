@@ -193,6 +193,9 @@
       <objects name="Day 1">
         <object>objects\obj_D1work</object>
       </objects>
+      <objects name="Day 2">
+        <object>objects\obj_D2quake</object>
+      </objects>
     </objects>
     <objects name="Environment">
       <object>objects\obj_machine</object>
