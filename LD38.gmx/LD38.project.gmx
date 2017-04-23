@@ -121,7 +121,11 @@
       <sprite>sprites\spr_zWork</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_farbg</background>
+    <background>background\bg_foreground</background>
+    <background>background\bg_back</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Control">
