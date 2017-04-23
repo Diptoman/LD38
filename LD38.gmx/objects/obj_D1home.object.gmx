@@ -58,16 +58,9 @@ if (main)
 {
     if (scr_action() &amp;&amp; (obj_control._step == 3))
     {
-        obj_main._isControllable = false;
-        obj_main.alarm[0] = 240;
-        
-        obj_machine._state = 2;
-        obj_machine.alarm[0] = 240;
-        obj_machine.image_index = 0;
+        instance_create(x,y,obj_dayEnder);
         
         scr_deleteMessage(_bubble);
-        
-        obj_control._step += 1;
         
         instance_destroy();
     }

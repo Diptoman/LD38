@@ -28,8 +28,11 @@
             <string>///Story setups
 randomize();
 
+instance_create(x, y, obj_dayBeginner);
+
 _day = 1; //What day is being played
 _step = 1; //What part of the day the player is currently at
+alarm[0] = 1; //Play audio
 </string>
           </argument>
         </arguments>
@@ -208,6 +211,41 @@ part_system_depth(_snowS3Particles, 100);
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_stop_all();
+if (_day == 1)
+{
+    audio_play_sound(snd_bg_d1, 10, 1);
+}
+else if (_day == 2)
+{
+    audio_play_sound(snd_bg_d2, 10, 1);
+}
+else if (_day == 3)
+{
+    audio_play_sound(snd_bg_d3, 10, 1);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -254,29 +292,6 @@ else
 
 rx = irandom_range(r1, r2);
 part_particles_create(_snowS3Particles, rx, -10, _snowS3P1, 1);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_text(0, 0, string(view_hport) + " " + string(view_wport));
 </string>
           </argument>
         </arguments>
