@@ -55,7 +55,7 @@ _index = 0;
 var main = instance_place(x,y, obj_main);
 if (main)
 {
-    if (!_isActive)
+    if ((!_isActive) &amp;&amp; (obj_control._step == _step))
     {  
         _bubble = scr_showMessage(_image);
     }

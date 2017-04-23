@@ -224,6 +224,7 @@
       <object>objects\obj_markerParent</object>
       <objects name="Day 1">
         <object>objects\obj_D1work</object>
+        <object>objects\obj_D1home</object>
       </objects>
       <objects name="Day 2">
         <object>objects\obj_D2quake</object>

@@ -141,6 +141,8 @@ alarm[3] = 2 + random(4);
           <argument>
             <kind>1</kind>
             <string>_state = 1;
+scr_showBubble(spr_symbol_question, obj_main, 120);
+obj_control._step += 1;
 </string>
           </argument>
         </arguments>
