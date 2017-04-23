@@ -52,8 +52,8 @@ _index = 0;
           <argument>
             <kind>1</kind>
             <string>///Marker collision
-var marker = instance_place(x,y, obj_main);
-if (marker)
+var main = instance_place(x,y, obj_main);
+if (main)
 {
     if (!_isActive)
     {  
