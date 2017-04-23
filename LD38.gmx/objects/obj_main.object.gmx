@@ -27,7 +27,10 @@
             <kind>1</kind>
             <string>//Basic variables
 
-_movementSpd = 4;
+_movementSpd = 2;
+_anxious = false;
+
+image_speed = .15;
 </string>
           </argument>
         </arguments>
@@ -51,10 +54,27 @@ _movementSpd = 4;
           <argument>
             <kind>1</kind>
             <string>if (scr_left())
+{    
     x -= _movementSpd;
-    
-if (scr_right())
+    image_xscale = -1;
+    if (!_anxious)
+        sprite_index = spr_main_walking;
+    else
+        sprite_index = spr_main_running;
+}
+else if (scr_right())
+{
     x += _movementSpd;
+    image_xscale = 1;
+    if (!_anxious)
+        sprite_index = spr_main_walking;
+    else
+        sprite_index = spr_main_running;
+}
+else 
+{
+    sprite_index = spr_main_default;
+}
 </string>
           </argument>
         </arguments>
