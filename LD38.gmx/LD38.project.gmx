@@ -103,6 +103,8 @@
         <sprite>sprites\spr_main_ducking</sprite>
         <sprite>sprites\spr_main_walking</sprite>
         <sprite>sprites\spr_main_running</sprite>
+        <sprite>sprites\sprite39</sprite>
+        <sprite>sprites\spr_runWithGirl</sprite>
       </sprites>
       <sprites name="Male">
         <sprite>sprites\spr_male_default</sprite>
@@ -147,8 +149,8 @@
         <sprite>sprites\spr_symbol_question</sprite>
         <sprite>sprites\spr_symbol_sacrifice</sprite>
         <sprite>sprites\spr_symbol_kill</sprite>
-        <sprite>sprites\spr_symbol_home</sprite>
         <sprite>sprites\spr_symbol_cross</sprite>
+        <sprite>sprites\spr_symbol_home</sprite>
       </sprites>
     </sprites>
     <sprites name="Bubbles">
