@@ -112,13 +112,15 @@
       <sprite>sprites\spr_charshadow</sprite>
     </sprites>
     <sprites name="Environment">
-      <sprite>sprites\spr_machine</sprite>
+      <sprite>sprites\spr_machine_flicker</sprite>
+      <sprite>sprites\spr_machine_work</sprite>
       <sprite>sprites\spr_tree</sprite>
       <sprite>sprites\spr_house</sprite>
       <sprite>sprites\spr_snowFalling</sprite>
     </sprites>
     <sprites name="UI">
-      <sprite>sprites\spr_bubble</sprite>
+      <sprite>sprites\spr_bubble1</sprite>
+      <sprite>sprites\spr_bubble2</sprite>
       <sprite>sprites\spr_markerNormal</sprite>
     </sprites>
     <sprites name="Bubbles">

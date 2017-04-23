@@ -20,7 +20,11 @@
   <width>224</width>
   <height>192</height>
   <frames>
-    <frame index="0">images\spr_machine_flicker_0.png</frame>
-    <frame index="1">images\spr_machine_flicker_1.png</frame>
+    <frame index="0">images\spr_machine_work_0.png</frame>
+    <frame index="1">images\spr_machine_work_1.png</frame>
+    <frame index="2">images\spr_machine_work_2.png</frame>
+    <frame index="3">images\spr_machine_work_3.png</frame>
+    <frame index="4">images\spr_machine_work_4.png</frame>
+    <frame index="5">images\spr_machine_work_5.png</frame>
   </frames>
 </sprite>
