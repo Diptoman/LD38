@@ -31,7 +31,7 @@ _movementSpd = 2;
 _anxious = false;
 _isControllable = true;
 
-image_speed = .15;
+image_speed = .1;
 </string>
           </argument>
         </arguments>

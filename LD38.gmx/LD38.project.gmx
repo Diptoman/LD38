@@ -109,19 +109,43 @@
         <sprite>sprites\spr_male_walking</sprite>
         <sprite>sprites\spr_male_running</sprite>
       </sprites>
+      <sprite>sprites\spr_charshadow</sprite>
+      <sprites name="Girl">
+        <sprite>sprites\spr_girl_default</sprite>
+        <sprite>sprites\spr_girl_walk</sprite>
+      </sprites>
     </sprites>
     <sprites name="Environment">
-      <sprite>sprites\spr_machine</sprite>
+      <sprite>sprites\spr_machine_flicker</sprite>
+      <sprite>sprites\spr_machine_work</sprite>
+      <sprite>sprites\spr_tree</sprite>
+      <sprite>sprites\spr_house</sprite>
+      <sprite>sprites\spr_snowFalling</sprite>
     </sprites>
     <sprites name="UI">
-      <sprite>sprites\spr_bubble</sprite>
+      <sprite>sprites\spr_bubble1</sprite>
+      <sprite>sprites\spr_bubble2</sprite>
       <sprite>sprites\spr_markerNormal</sprite>
+      <sprites name="Action Symbols">
+        <sprite>sprites\spr_work</sprite>
+      </sprites>
+      <sprites name="Speech Symbols">
+        <sprite>sprites\spr_symbol_food</sprite>
+        <sprite>sprites\spr_symbol_drink</sprite>
+        <sprite>sprites\spr_symbol_doom</sprite>
+        <sprite>sprites\spr_symbol_sleep</sprite>
+        <sprite>sprites\spr_symbol_question</sprite>
+      </sprites>
     </sprites>
     <sprites name="Bubbles">
       <sprite>sprites\spr_zWork</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_farbg</background>
+    <background>background\bg_foreground</background>
+    <background>background\bg_back</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Control">
