@@ -211,6 +211,7 @@
         <object>objects\obj_main</object>
       </objects>
       <object>objects\obj_mainBubble</object>
+      <object>objects\obj_speechBubble</object>
       <objects name="NPCs">
         <object>objects\obj_randomPerson</object>
       </objects>
@@ -220,9 +221,13 @@
       <objects name="Day 1">
         <object>objects\obj_D1work</object>
       </objects>
+      <objects name="Day 2">
+        <object>objects\obj_D2quake</object>
+      </objects>
     </objects>
     <objects name="Environment">
       <object>objects\obj_machine</object>
+      <object>objects\obj_house</object>
     </objects>
     <objects name="TweenGMS">
       <object>objects\obj_SharedTweener</object>

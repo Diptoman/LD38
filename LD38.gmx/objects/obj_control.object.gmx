@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Story setups
+randomize();
 
 _day = 1; //What day is being played
 _step = 1; //What part of the day the player is currently at
@@ -52,6 +53,145 @@ _step = 1; //What part of the day the player is currently at
             <string>///Other setups
 
 scr_controlSetup();
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Snow 1
+_snowParticles = part_system_create();
+
+_snowP1 = part_type_create();
+part_type_sprite(_snowP1, spr_snowFalling, false, false, false);
+part_type_life(_snowP1, room_speed * 1.2, room_speed * 1.4);
+part_type_size(_snowP1, 1, 1, .005, 0);
+part_type_direction(_snowP1, 260, 270, .1, 0);
+part_type_speed(_snowP1, .8, 1, 0, 0);
+
+_snowP2 = part_type_create();
+part_type_sprite(_snowP2, spr_snowFalling, false, false, false);
+part_type_life(_snowP2, room_speed * 1.2, room_speed * 1.4);
+part_type_size(_snowP2, 1, 1, .005, 0);
+part_type_direction(_snowP2, 270, 280, .1, 0);
+part_type_speed(_snowP2, .8, 1, 0, 0);
+
+part_type_death(_snowP1, 1, _snowP2);
+
+_snowP3 = part_type_create();
+part_type_sprite(_snowP3, spr_snowFalling, false, false, false);
+part_type_life(_snowP3, room_speed * 1.2, room_speed * 1.4);
+part_type_size(_snowP3, 1, 1, .005, 0);
+part_type_direction(_snowP3, 260, 270, .1, 0);
+part_type_speed(_snowP3, .8, 1, 0, 0);
+
+part_type_death(_snowP2, 1, _snowP3);
+
+part_system_depth(_snowParticles, -100);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Snow 2
+_snowS2Particles = part_system_create();
+
+_snowS2P1 = part_type_create();
+part_type_sprite(_snowS2P1, spr_snowFalling, false, false, false);
+part_type_life(_snowS2P1, room_speed * 1.2, room_speed * 1.4);
+part_type_size(_snowS2P1, 1, 1, .005, 0);
+part_type_direction(_snowS2P1, 260, 270, .1, 0);
+part_type_speed(_snowS2P1, .8, 1, 0, 0);
+part_type_alpha1(_snowS2P1, .5);
+
+_snowS2P2 = part_type_create();
+part_type_sprite(_snowS2P2, spr_snowFalling, false, false, false);
+part_type_life(_snowS2P2, room_speed * 1.2, room_speed * 1.4);
+part_type_size(_snowS2P2, 1, 1, .005, 0);
+part_type_direction(_snowS2P2, 270, 280, .1, 0);
+part_type_speed(_snowS2P2, .8, 1, 0, 0);
+part_type_alpha1(_snowS2P2, .5);
+
+part_type_death(_snowS2P1, 1, _snowS2P2);
+
+_snowS2P3 = part_type_create();
+part_type_sprite(_snowS2P3, spr_snowFalling, false, false, false);
+part_type_life(_snowS2P3, room_speed * 1.2, room_speed * 1.4);
+part_type_size(_snowS2P3, 1, 1, .005, 0);
+part_type_direction(_snowS2P3, 260, 270, .1, 0);
+part_type_speed(_snowS2P3, .8, 1, 0, 0);
+part_type_alpha1(_snowS2P3, .5);
+
+part_type_death(_snowS2P2, 1, _snowS2P3);
+
+part_system_depth(_snowS2Particles, 100);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Make it snow
+var r1, r2;
+
+if ((view_xview[0] - 320) &lt; 40)
+    r1 = 40;
+else
+    r1 = view_xview[0] - 320;
+    
+if ((view_xview[0] + view_wview[0] + 320) &gt; room_width - 40)
+    r2 = room_width - 40;
+else
+    r2 = view_xview[0] + view_wview[0] + 320;
+
+var rx = irandom_range(r1, r2);
+part_particles_create(_snowParticles, rx, -10, _snowP1, 1);
+part_particles_create(_snowS2Particles, rx, -10, _snowS2P1, 1);
 </string>
           </argument>
         </arguments>
