@@ -57,7 +57,7 @@ if (main)
 {
     if (!_isActive)
     {  
-        _bubble = scr_showMessage(_image, _index);
+        _bubble = scr_showMessage(_image);
     }
 }
 else

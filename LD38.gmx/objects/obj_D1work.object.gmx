@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_inherited();
 
-_image = spr_zWork;
+_image = spr_work;
 _index = 0;
 </string>
           </argument>
@@ -59,7 +59,12 @@ if (main)
     if (scr_action())
     {
         obj_main._isControllable = false;
-        obj_main.alarm[0] = 180;
+        obj_main.alarm[0] = 240;
+        
+        obj_machine._state = 2;
+        obj_machine.alarm[0] = 240;
+        obj_machine.image_index = 0;
+        
         scr_deleteMessage(_bubble);
         instance_destroy();
     }
