@@ -38,6 +38,8 @@ part_type_gravity(_dropP1, .2, 270);
 part_type_alpha2(_dropP1, 1, .5);
 
 part_system_depth(_dropParticles, -100);
+
+audio_play_sound(snd_waterDrop, 5, 0);
 </string>
           </argument>
         </arguments>

@@ -107,10 +107,14 @@ alarm[1] = 1;
             <string>if (_state == 2)
 {
     if (_alpha &gt; 0)
+    {
         _alpha -= .008;
+        
+        if (_alpha &lt; .5)
+            obj_main._isControllable = true;
+    }
     else
     {
-        obj_main._isControllable = true;
         instance_destroy();
     }
 }

@@ -106,6 +106,7 @@
       <sound>sound\snd_earthquake</sound>
       <sound>sound\snd_earthquakeSmooth</sound>
       <sound>sound\snd_machine</sound>
+      <sound>sound\snd_waterDrop</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -301,11 +302,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_day6</room>
-    <room>rooms\rm_day6_1</room>
     <room>rooms\rm_day1</room>
     <room>rooms\rm_day2</room>
     <room>rooms\rm_day5</room>
+    <room>rooms\rm_day6</room>
+    <room>rooms\rm_day6_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
