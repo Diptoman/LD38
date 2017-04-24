@@ -112,12 +112,19 @@ else if (view_angle[0] &lt;= -_limit)
 }*/
 
 view_object = -1;
-if (obj_main.x &gt; view_wview / 2) &amp;&amp; (obj_main.x &lt; room_width - view_wview / 2)
-    view_xview = -(view_wview/2) + obj_main.x;
-else if (obj_main.x &lt; view_wview / 2)
-    view_xview = 0;
-else if (obj_main.x &gt; room_width - view_wview / 2)
-    view_xview = room_width - view_wview;
+if (instance_exists(obj_main))
+{
+    if (obj_main.x &gt; view_wview / 2) &amp;&amp; (obj_main.x &lt; room_width - view_wview / 2)
+        view_xview = -(view_wview/2) + obj_main.x;
+    else if (obj_main.x &lt; view_wview / 2)
+        view_xview = 0;
+    else if (obj_main.x &gt; room_width - view_wview / 2)
+        view_xview = room_width - view_wview;
+}
+else
+{
+    view_xview = 480;
+}
     
 view_yview =  0;
 

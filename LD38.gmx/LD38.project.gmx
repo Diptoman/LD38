@@ -240,6 +240,7 @@
       <object>objects\obj_control</object>
       <object>objects\obj_dayBeginner</object>
       <object>objects\obj_dayEnder</object>
+      <object>objects\obj_gameEnder</object>
       <object>objects\obj_shake</object>
     </objects>
     <objects name="Characters">
@@ -252,12 +253,16 @@
         <object>objects\obj_randomPerson</object>
         <object>objects\obj_randomInsanePerson</object>
         <object>objects\obj_cultist_d3</object>
+        <object>objects\obj_cultist_d4</object>
         <object>objects\obj_followers_d3</object>
+        <object>objects\obj_followers_d4</object>
+        <object>objects\obj_main_d4</object>
         <object>objects\obj_line_d4</object>
       </objects>
       <objects name="Girl">
         <object>objects\obj_girl_day2</object>
         <object>objects\obj_girl_day6</object>
+        <object>objects\obj_girl_die</object>
       </objects>
     </objects>
     <objects name="Story Markers">
@@ -278,6 +283,7 @@
       </objects>
       <objects name="Day 4">
         <object>objects\obj_D4girlappearing</object>
+        <object>objects\obj_D4gameEnderGood</object>
       </objects>
     </objects>
     <objects name="Environment">
@@ -302,11 +308,13 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_day6_1</room>
+    <room>rooms\rm_day6_2</room>
+    <room>rooms\rm_end</room>
     <room>rooms\rm_day1</room>
     <room>rooms\rm_day2</room>
     <room>rooms\rm_day5</room>
     <room>rooms\rm_day6</room>
-    <room>rooms\rm_day6_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
