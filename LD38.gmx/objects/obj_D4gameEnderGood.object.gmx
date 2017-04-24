@@ -49,6 +49,8 @@
           <argument>
             <kind>1</kind>
             <string>instance_create(x, y, obj_gameEnder);
+
+global.ending = 1;
 </string>
           </argument>
         </arguments>

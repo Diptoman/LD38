@@ -58,6 +58,8 @@ _alpha = 0;
         _alpha += .008;
     else
     {
+        part_system_destroy(obj_control._snowS2Particles);
+        part_system_destroy(obj_control._snowS3Particles);
         room_goto(rm_end);
     }
 }

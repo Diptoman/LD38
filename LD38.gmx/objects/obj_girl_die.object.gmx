@@ -77,6 +77,8 @@ image_speed = .1;
           <argument>
             <kind>1</kind>
             <string>instance_create(x, y, obj_gameEnder);
+
+global.ending = 2;
 </string>
           </argument>
         </arguments>
