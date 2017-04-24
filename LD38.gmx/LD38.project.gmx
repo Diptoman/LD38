@@ -115,7 +115,8 @@
         <sprite>sprites\spr_main_walking</sprite>
         <sprite>sprites\spr_main_running</sprite>
         <sprite>sprites\sprite39</sprite>
-        <sprite>sprites\spr_runWithGirl</sprite>
+        <sprite>sprites\spr_main_runGirl</sprite>
+        <sprite>sprites\spr_main_defaultGirl</sprite>
       </sprites>
       <sprites name="Male">
         <sprite>sprites\spr_male_default</sprite>
@@ -127,6 +128,7 @@
         <sprite>sprites\spr_girl_default</sprite>
         <sprite>sprites\spr_girl_walk</sprite>
         <sprite>sprites\spr_girl_fall</sprite>
+        <sprite>sprites\spr_girl_bleed</sprite>
       </sprites>
       <sprites name="Cultist">
         <sprite>sprites\spr_cultist_default</sprite>
@@ -285,8 +287,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
-    <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
