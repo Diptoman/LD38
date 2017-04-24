@@ -59,9 +59,9 @@
     <instance objName="obj_tree" x="520" y="192" name="inst_50C1CAD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_newCrack" x="640" y="232" name="inst_4458A1DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_D4gameEnderGood" x="96" y="184" name="inst_017CBB2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cultist_d4" x="744" y="192" name="inst_CDA330D7" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cultist_d4" x="656" y="192" name="inst_CDA330D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cultist_d4" x="784" y="192" name="inst_FF468D73" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cultist_d4" x="656" y="192" name="inst_99463D02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cultist_d4" x="736" y="192" name="inst_99463D02" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_followers_d4" x="840" y="192" name="inst_22010801" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_followers_d4" x="824" y="192" name="inst_43BE33A8" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_followers_d4" x="872" y="192" name="inst_E5CA6146" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>

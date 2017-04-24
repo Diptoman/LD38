@@ -196,7 +196,7 @@ if ((_state == 2) || (_state == 3))
 }
 else if (_state == 4)
 {
-    if (scr_action())
+    if (keyboard_check(vk_space) || keyboard_check(vk_enter) || keyboard_check(ord("Z")) || keyboard_check(ord("J")))
         game_restart();
         
     draw_set_color(c_white);
