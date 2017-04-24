@@ -176,6 +176,7 @@
       <script>scripts\scr_controlSetup.gml</script>
       <script>scripts\scr_showMessage.gml</script>
       <script>scripts\scr_setNPCSprite.gml</script>
+      <script>scripts\scr_shake.gml</script>
     </scripts>
     <scripts name="TweenGMS">
       <scripts name="Core">
@@ -228,6 +229,7 @@
       <object>objects\obj_control</object>
       <object>objects\obj_dayBeginner</object>
       <object>objects\obj_dayEnder</object>
+      <object>objects\obj_shake</object>
     </objects>
     <objects name="Characters">
       <objects name="Main">
@@ -237,6 +239,9 @@
       <object>objects\obj_speechBubble</object>
       <objects name="NPCs">
         <object>objects\obj_randomPerson</object>
+      </objects>
+      <objects name="Girl">
+        <object>objects\obj_girl_day2</object>
       </objects>
     </objects>
     <objects name="Story Markers">
@@ -257,10 +262,17 @@
     <objects name="TweenGMS">
       <object>objects\obj_SharedTweener</object>
     </objects>
+    <objects name="Stroy Specific">
+      <objects name="Day 2">
+        <object>objects\obj_firstShake</object>
+        <object>objects\obj_crack</object>
+        <object>objects\obj_drop</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
