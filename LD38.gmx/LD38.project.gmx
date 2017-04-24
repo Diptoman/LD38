@@ -302,10 +302,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_day6</room>
     <room>rooms\rm_day1</room>
     <room>rooms\rm_day2</room>
     <room>rooms\rm_day5</room>
-    <room>rooms\rm_day6</room>
     <room>rooms\rm_day6_1</room>
   </rooms>
   <help>
