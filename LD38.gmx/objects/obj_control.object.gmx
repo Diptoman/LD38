@@ -211,6 +211,34 @@ part_system_depth(_snowS3Particles, 100);
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Make quakes happen (if &gt; day 5)
+if (_day &gt;= 5)
+{
+    scr_shake(3, 150);
+    alarm[1] = 300 + floor(random(240));
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -240,6 +268,12 @@ else if (_day == 2)
 else if (_day == 5)
 {
     audio_play_sound(snd_bg_d3, 10, 1);
+}
+
+//Make quakes happen (if &gt; day 5)
+if (_day &gt;= 5)
+{
+    alarm[1] = 120 + floor(random(120));
 }
 </string>
           </argument>
