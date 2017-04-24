@@ -117,7 +117,10 @@ if (_isControllable)
 {
     if (scr_left())
     {  
-        _xx -= _movementSpd;
+        if (_xx &gt; 48)
+            _xx -= _movementSpd;
+        else
+            _xx = 48;
         x = floor(_xx);
         image_xscale = -1;
         if (obj_control._day &lt;= 6)
@@ -135,7 +138,10 @@ if (_isControllable)
     }
     else if (scr_right())
     {
-        _xx += _movementSpd;
+        if (_xx &lt; room_width - 40)
+            _xx += _movementSpd;
+        else
+            _xx = room_width - 40;
         x = floor(_xx);
         image_xscale = 1;
         if (obj_control._day &lt;= 6)
@@ -180,6 +186,11 @@ else
         }
     }
 }
+
+if (x &lt; 48)
+    x = 48;
+if (x &gt; room_width - 40)
+    x = room_width - 40;
 </string>
           </argument>
         </arguments>

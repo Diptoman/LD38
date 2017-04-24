@@ -141,7 +141,7 @@ alarm[3] = 2 + random(4);
           <argument>
             <kind>1</kind>
             <string>_state = 1;
-scr_showBubble(spr_symbol_home, obj_main, 120);
+scr_showBubble(spr_symbol_home, obj_main, 180);
 obj_control._step += 1;
 obj_main._isControllable = true;
 </string>

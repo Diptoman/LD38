@@ -33,6 +33,9 @@ _step = 1; //What part of the day the player is currently at
 alarm[0] = 1; //Play audio
 
 instance_create(x, y, obj_dayBeginner);
+
+_bubbles = 0;
+_maxBubbles = 1;
 </string>
           </argument>
         </arguments>
@@ -262,18 +265,22 @@ if (_day &gt;= 5)
 if (_day == 1)
 {
     audio_play_sound(snd_bg_d1, 10, 1);
+    _maxBubbles = 2;
 }
 else if (_day == 2)
 {
     audio_play_sound(snd_bg_d2, 10, 1);
+    _maxBubbles = 2;
 }
 else if (_day == 5)
 {
     audio_play_sound(snd_bg_d3, 10, 1);
+    _maxBubbles = 3;
 }
 else if (_day == 6)
 {
     audio_play_sound(snd_bg_d4, 10, 1);
+    _maxBubbles = 0;
 }
 
 //Make quakes happen (if &gt; day 5)
@@ -336,6 +343,30 @@ else
 
 rx = irandom_range(r1, r2);
 part_particles_create(_snowS3Particles, rx, -10, _snowS3P1, 1);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if keyboard_check_pressed(vk_escape)
+{
+    game_end();
+}
 </string>
           </argument>
         </arguments>

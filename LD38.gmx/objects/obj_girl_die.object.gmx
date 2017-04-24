@@ -102,6 +102,7 @@ global.ending = 2;
           <argument>
             <kind>1</kind>
             <string>scr_shake(12, 180);
+audio_play_sound(snd_earthquake, 5, 0);
 alarm[1] = 60;
 </string>
           </argument>

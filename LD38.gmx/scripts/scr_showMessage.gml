@@ -9,7 +9,7 @@ return bubble;
 argument0._state = 2;
 _isActive = false;
 #define scr_showBubble
-var bubble = instance_create(obj_main.x, obj_main.y - 48, obj_speechBubble);
+var bubble = instance_create(argument1.x, argument1.y - 48, obj_speechBubble);
 bubble._image = argument0;
 bubble._parent = argument1;
 bubble.alarm[1] = argument2;

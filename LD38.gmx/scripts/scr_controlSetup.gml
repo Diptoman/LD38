@@ -7,6 +7,8 @@ _duck = vk_down;
 _altDuck = ord("S");
 _action = ord("Z");
 _altAction = ord("J");
+_altAction2 = vk_space;
+_altAction3 = vk_enter;
 
 #define scr_left
 if (keyboard_check(obj_control._left) || keyboard_check(obj_control._altLeft))
@@ -20,5 +22,5 @@ if (keyboard_check(obj_control._right) || keyboard_check(obj_control._altRight))
 if (keyboard_check(obj_control._duck) || keyboard_check(obj_control._altDuck))
     return true;
 #define scr_action
-if (keyboard_check(obj_control._action) || keyboard_check(obj_control._altAction))
+if (keyboard_check(obj_control._action) || keyboard_check(obj_control._altAction) || keyboard_check(obj_control._altAction2) || keyboard_check(obj_control._altAction3))
     return true;

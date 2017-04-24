@@ -32,6 +32,36 @@ _state = 0;
 alarm[0] = 60 + floor(random(60));
 
 image_speed = .1;
+
+alarm[1] = floor(random(60));
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alarm[1] = 210 + floor(random(30));
+
+if (obj_control._bubbles &lt; obj_control._maxBubbles)
+{
+    scr_showBubble(choose(spr_symbol_kill, spr_symbol_sacrifice), id, 120+floor(random(90)));
+}
 </string>
           </argument>
         </arguments>

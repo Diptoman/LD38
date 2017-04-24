@@ -83,6 +83,7 @@ if (main)
     
     obj_control._step += 1;
     scr_shake(12, 180);
+    audio_play_sound(snd_earthquake, 5, 0);
 }
 </string>
           </argument>
