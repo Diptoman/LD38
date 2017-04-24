@@ -248,7 +248,9 @@
       <object>objects\obj_speechBubble</object>
       <objects name="NPCs">
         <object>objects\obj_randomPerson</object>
+        <object>objects\obj_randomInsanePerson</object>
         <object>objects\obj_cultist_d3</object>
+        <object>objects\obj_followers_d3</object>
       </objects>
       <objects name="Girl">
         <object>objects\obj_girl_day2</object>
@@ -266,6 +268,10 @@
         <object>objects\obj_D2work</object>
         <object>objects\obj_D2home</object>
       </objects>
+      <objects name="Day 3">
+        <object>objects\obj_D3work</object>
+        <object>objects\obj_D3home</object>
+      </objects>
     </objects>
     <objects name="Environment">
       <object>objects\obj_machine</object>
@@ -282,6 +288,9 @@
         <object>objects\obj_crack</object>
         <object>objects\obj_drop</object>
         <object>objects\obj_dropDestroy</object>
+      </objects>
+      <objects name="Day 3">
+        <object>objects\obj_newCrack</object>
       </objects>
     </objects>
   </objects>
