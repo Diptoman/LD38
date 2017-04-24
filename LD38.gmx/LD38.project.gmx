@@ -308,6 +308,13 @@
     </objects>
   </objects>
   <rooms name="rooms">
+<<<<<<< HEAD
+    <room>rooms\rm_day6</room>
+    <room>rooms\rm_day1</room>
+    <room>rooms\rm_day2</room>
+    <room>rooms\rm_day5</room>
+    <room>rooms\rm_day6_1</room>
+=======
     <room>rooms\rm_day6_1</room>
     <room>rooms\rm_day6_2</room>
     <room>rooms\rm_end</room>
@@ -315,6 +322,7 @@
     <room>rooms\rm_day2</room>
     <room>rooms\rm_day5</room>
     <room>rooms\rm_day6</room>
+>>>>>>> 934b0eaeb8bb9ad3a67cef1ee26c131361148eda
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
