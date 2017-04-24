@@ -104,7 +104,7 @@ part_type_speed(_snowP3, .8, 1, 0, 0);
 
 part_type_death(_snowP2, 1, _snowP3);
 
-part_system_depth(_snowParticles, -100);
+part_system_depth(_snowParticles, -200);
 </string>
           </argument>
         </arguments>
@@ -153,7 +153,7 @@ part_type_speed(_snowS2P3, .8, 1, 0, 0);
 
 part_type_death(_snowS2P2, 1, _snowS2P3);
 
-part_system_depth(_snowS2Particles, -100);
+part_system_depth(_snowS2Particles, -200);
 </string>
           </argument>
         </arguments>
@@ -237,7 +237,7 @@ else if (_day == 2)
 {
     audio_play_sound(snd_bg_d2, 10, 1);
 }
-else if (_day == 3)
+else if (_day == 5)
 {
     audio_play_sound(snd_bg_d3, 10, 1);
 }

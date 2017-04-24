@@ -54,7 +54,7 @@ alarm[1] = 120 + floor(random(60));
             <string>if (_state == 2)
 {
     _isFlickering = false;
-    alarm[1] = 420 + floor(random(60));
+    alarm[1] = 480 + floor(random(60));
 }
 
 if (_isFlickering)
@@ -143,6 +143,7 @@ alarm[3] = 2 + random(4);
             <string>_state = 1;
 scr_showBubble(spr_symbol_home, obj_main, 120);
 obj_control._step += 1;
+obj_main._isControllable = true;
 </string>
           </argument>
         </arguments>

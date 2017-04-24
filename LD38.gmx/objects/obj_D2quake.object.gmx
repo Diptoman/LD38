@@ -55,6 +55,7 @@ _index = 0;
 if (main)
 {
     instance_create(x, y, obj_firstShake);
+    audio_play_sound(snd_earthquake, 5, 0);
     instance_destroy();
 }
 </string>

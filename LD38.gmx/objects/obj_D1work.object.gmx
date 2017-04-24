@@ -59,10 +59,10 @@ if (main)
     if (scr_action())
     {
         obj_main._isControllable = false;
-        obj_main.alarm[0] = 240;
         
         obj_machine._state = 2;
-        obj_machine.alarm[0] = 240;
+        obj_machine.alarm[0] = 300;
+        audio_play_sound(snd_machine, 5, 0);
         obj_machine.image_index = 0;
         
         scr_deleteMessage(_bubble);

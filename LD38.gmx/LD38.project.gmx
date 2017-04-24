@@ -101,6 +101,11 @@
       <sound>sound\snd_bg_d2</sound>
       <sound>sound\snd_bg_d3</sound>
     </sounds>
+    <sounds name="SFX">
+      <sound>sound\snd_earthquake</sound>
+      <sound>sound\snd_earthquakeSmooth</sound>
+      <sound>sound\snd_machine</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Characters">
@@ -241,6 +246,7 @@
       <object>objects\obj_speechBubble</object>
       <objects name="NPCs">
         <object>objects\obj_randomPerson</object>
+        <object>objects\obj_cultist_d3</object>
       </objects>
       <objects name="Girl">
         <object>objects\obj_girl_day2</object>
@@ -254,6 +260,9 @@
       </objects>
       <objects name="Day 2">
         <object>objects\obj_D2quake</object>
+        <object>objects\obj_D2quake2</object>
+        <object>objects\obj_D2work</object>
+        <object>objects\obj_D2home</object>
       </objects>
     </objects>
     <objects name="Environment">
@@ -264,17 +273,20 @@
     <objects name="TweenGMS">
       <object>objects\obj_SharedTweener</object>
     </objects>
-    <objects name="Stroy Specific">
+    <objects name="Story Specific">
       <objects name="Day 2">
         <object>objects\obj_firstShake</object>
+        <object>objects\obj_secondShake</object>
         <object>objects\obj_crack</object>
         <object>objects\obj_drop</object>
+        <object>objects\obj_dropDestroy</object>
       </objects>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
+    <room>rooms\room2</room>
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

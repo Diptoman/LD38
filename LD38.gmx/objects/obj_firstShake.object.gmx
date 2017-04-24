@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>obj_control._step += 1;
-scr_shake(8, 240);
+scr_shake(4, 240);
 obj_main._isControllable = false;
 instance_create(room_width / 2, 0, obj_crack);
 
