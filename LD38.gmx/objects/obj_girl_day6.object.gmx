@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = .1;
+
+_state = 1;
 </string>
           </argument>
         </arguments>
@@ -50,7 +52,7 @@
             <kind>1</kind>
             <string>if (obj_control._step == 2)
 {
-    if (x &lt; room_width / 2 + 128)
+    if (x &gt; room_width / 2 + 32)
     {    
         x -= 1;
         sprite_index = spr_girl_walk;
@@ -64,14 +66,16 @@
             _state = 2;
             sprite_index = spr_girl_fall;
             image_index = 0;
-            image_speed = .05;
+            image_speed = .1;
         }
         else if (_state == 2)
         {
             if (round(image_index) &gt;= 2)
             {
-                image_speed = 2;
+                image_index = 2;
                 image_speed = 0;
+                obj_main._isControllable = true;
+                _state = 3;
             }
         }
     }

@@ -100,6 +100,7 @@
       <sound>sound\snd_bg_d1</sound>
       <sound>sound\snd_bg_d2</sound>
       <sound>sound\snd_bg_d3</sound>
+      <sound>sound\snd_bg_d4</sound>
     </sounds>
     <sounds name="SFX">
       <sound>sound\snd_earthquake</sound>
@@ -270,6 +271,9 @@
       <objects name="Day 3">
         <object>objects\obj_D3work</object>
         <object>objects\obj_D3home</object>
+      </objects>
+      <objects name="Day 4">
+        <object>objects\obj_D4girlappearing</object>
       </objects>
     </objects>
     <objects name="Environment">

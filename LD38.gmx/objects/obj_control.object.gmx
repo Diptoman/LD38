@@ -269,9 +269,17 @@ else if (_day == 5)
 {
     audio_play_sound(snd_bg_d3, 10, 1);
 }
+else if (_day == 6)
+{
+    audio_play_sound(snd_bg_d4, 10, 1);
+}
 
 //Make quakes happen (if &gt; day 5)
-if (_day &gt;= 5)
+if (_day == 5)
+{
+    alarm[1] = 300 + floor(random(120));
+}
+else if (_day == 6)
 {
     alarm[1] = 120 + floor(random(120));
 }
