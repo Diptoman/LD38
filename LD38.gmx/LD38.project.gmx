@@ -101,12 +101,14 @@
       <sound>sound\snd_bg_d2</sound>
       <sound>sound\snd_bg_d3</sound>
       <sound>sound\snd_bg_d4</sound>
+      <sound>sound\snd_bg_hope</sound>
     </sounds>
     <sounds name="SFX">
       <sound>sound\snd_earthquake</sound>
       <sound>sound\snd_earthquakeSmooth</sound>
       <sound>sound\snd_machine</sound>
       <sound>sound\snd_waterDrop</sound>
+      <sound>sound\snd_glassBreak</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -173,6 +175,10 @@
     </sprites>
     <sprite>sprites\spr_drop_fall</sprite>
     <sprite>sprites\spr_drop_partic</sprite>
+    <sprites name="Cuts">
+      <sprite>sprites\spr_end_happy</sprite>
+      <sprite>sprites\spr_end_sad</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_farbg</background>
@@ -235,6 +241,11 @@
       </scripts>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_main</font>
+    <font>fonts\fnt_main3</font>
+    <font>fonts\fnt_main2</font>
+  </fonts>
   <objects name="objects">
     <objects name="Control">
       <object>objects\obj_control</object>
@@ -242,6 +253,7 @@
       <object>objects\obj_dayEnder</object>
       <object>objects\obj_gameEnder</object>
       <object>objects\obj_shake</object>
+      <object>objects\obj_end</object>
     </objects>
     <objects name="Characters">
       <objects name="Main">
@@ -308,9 +320,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_end</room>
     <room>rooms\rm_day6_1</room>
     <room>rooms\rm_day6_2</room>
-    <room>rooms\rm_end</room>
     <room>rooms\rm_day1</room>
     <room>rooms\rm_day2</room>
     <room>rooms\rm_day5</room>
