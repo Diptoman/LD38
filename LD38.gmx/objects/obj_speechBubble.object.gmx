@@ -146,7 +146,7 @@ image_xscale = - _parent.image_xscale;
             <string>depth = _parent.depth;
 
 draw_self();
-draw_sprite_ext(_image, 0, x + sign(image_xscale) * 48, y, 1, image_yscale, image_angle, c_white, image_alpha);
+draw_sprite_ext(_image, 0, x + sign(image_xscale) * 32, y, 1, image_yscale, image_angle, c_white, image_alpha);
 </string>
           </argument>
         </arguments>
