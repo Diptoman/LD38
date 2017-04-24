@@ -179,6 +179,7 @@ obj_main._isControllable = true;
 else
 {
     sprite_index = spr_machine_work;
+    obj_control._snowSpeed = 6;
     image_speed = .25;
 }
 </string>

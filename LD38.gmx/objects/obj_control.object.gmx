@@ -36,6 +36,8 @@ instance_create(x, y, obj_dayBeginner);
 
 _bubbles = 0;
 _maxBubbles = 1;
+
+_snowSpeed = 1;
 </string>
           </argument>
         </arguments>
@@ -262,6 +264,9 @@ if (_day &gt;= 5)
             <string>if (_day &lt;= 6)
     audio_stop_all();
 
+if (_day &gt;= 6)
+    _snowSpeed = 6;
+
 if (_day == 1)
 {
     audio_play_sound(snd_bg_d1, 10, 1);
@@ -328,7 +333,10 @@ else
     r2 = view_xview[0] + view_wview[0] + 320;
 
 var rx = irandom_range(r1, r2);
-part_particles_create(_snowS2Particles, rx, -10, _snowS2P1, 1);
+
+
+if (1 + floor(random(6)) &lt;= _snowSpeed)
+    part_particles_create(_snowS2Particles, rx, -10, _snowS2P1, 1);
 
 //Next
 if ((view_xview[0] - 320) &lt; 40)
@@ -342,7 +350,8 @@ else
     r2 = view_xview[0] + view_wview[0] + 320;
 
 rx = irandom_range(r1, r2);
-part_particles_create(_snowS3Particles, rx, -10, _snowS3P1, 1);
+if (1 + floor(random(6)) &lt;= _snowSpeed)
+    part_particles_create(_snowS3Particles, rx, -10, _snowS3P1, 2);
 </string>
           </argument>
         </arguments>
