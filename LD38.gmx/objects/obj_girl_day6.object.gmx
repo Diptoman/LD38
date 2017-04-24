@@ -52,7 +52,7 @@ _state = 1;
             <kind>1</kind>
             <string>if (obj_control._step == 2)
 {
-    if (x &gt; room_width / 2 + 32)
+    if (x &gt; room_width / 2 + 192)
     {    
         x -= 1;
         sprite_index = spr_girl_walk;

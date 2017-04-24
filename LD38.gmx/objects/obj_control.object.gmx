@@ -28,11 +28,11 @@
             <string>///Story setups
 randomize();
 
-instance_create(x, y, obj_dayBeginner);
-
 _day = 1; //What day is being played
 _step = 1; //What part of the day the player is currently at
 alarm[0] = 1; //Play audio
+
+instance_create(x, y, obj_dayBeginner);
 </string>
           </argument>
         </arguments>
@@ -256,7 +256,9 @@ if (_day &gt;= 5)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_stop_all();
+            <string>if (_day &lt;= 6)
+    audio_stop_all();
+
 if (_day == 1)
 {
     audio_play_sound(snd_bg_d1, 10, 1);
@@ -279,7 +281,7 @@ if (_day == 5)
 {
     alarm[1] = 300 + floor(random(120));
 }
-else if (_day == 6)
+else if (_day &gt;= 6)
 {
     alarm[1] = 120 + floor(random(120));
 }

@@ -54,7 +54,7 @@ alarm[0] = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (obj_control._day == 6)
+            <string>if (obj_control._day &gt;= 6)
 {
     image_index = 5;
 }

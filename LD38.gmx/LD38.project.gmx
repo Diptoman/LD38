@@ -252,6 +252,7 @@
         <object>objects\obj_randomInsanePerson</object>
         <object>objects\obj_cultist_d3</object>
         <object>objects\obj_followers_d3</object>
+        <object>objects\obj_line_d4</object>
       </objects>
       <objects name="Girl">
         <object>objects\obj_girl_day2</object>
@@ -300,10 +301,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_day6</room>
+    <room>rooms\rm_day6_1</room>
     <room>rooms\rm_day1</room>
     <room>rooms\rm_day2</room>
     <room>rooms\rm_day5</room>
-    <room>rooms\rm_day6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
