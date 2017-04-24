@@ -281,7 +281,7 @@ if (_day == 5)
 {
     alarm[1] = 300 + floor(random(120));
 }
-else if (_day &gt;= 6)
+else if ((_day == 6) || (_day == 6.1))
 {
     alarm[1] = 120 + floor(random(120));
 }
